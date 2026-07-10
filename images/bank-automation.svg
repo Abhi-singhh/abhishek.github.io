@@ -1,0 +1,12 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#0b1e3c"/>
+  <polygon points="400,120 540,200 260,200" fill="#e8a33d"/>
+  <rect x="260" y="200" width="280" height="18" fill="#f4c67a"/>
+  <rect x="280" y="230" width="24" height="110" fill="#e8a33d"/>
+  <rect x="340" y="230" width="24" height="110" fill="#e8a33d"/>
+  <rect x="400" y="230" width="24" height="110" fill="#e8a33d"/>
+  <rect x="460" y="230" width="24" height="110" fill="#e8a33d"/>
+  <rect x="240" y="350" width="320" height="20" fill="#f4c67a"/>
+  <rect x="220" y="380" width="360" height="14" fill="#13294b" stroke="#e8a33d" stroke-width="2"/>
+  <text x="400" y="420" text-anchor="middle" fill="#f4c67a" font-family="Arial, sans-serif" font-size="20" letter-spacing="2">ACCOUNT MANAGEMENT SYSTEM</text>
+</svg>

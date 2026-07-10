@@ -1,0 +1,22 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#0b1e3c"/>
+  <!-- axis -->
+  <line x1="220" y1="130" x2="220" y2="330" stroke="#f4c67a" stroke-width="3"/>
+  <line x1="220" y1="330" x2="520" y2="330" stroke="#f4c67a" stroke-width="3"/>
+  <!-- bars -->
+  <rect x="245" y="270" width="40" height="60" fill="#e8a33d"/>
+  <rect x="300" y="230" width="40" height="100" fill="#e8a33d"/>
+  <rect x="355" y="190" width="40" height="140" fill="#e8a33d"/>
+  <rect x="410" y="150" width="40" height="180" fill="#e8a33d"/>
+  <rect x="465" y="205" width="40" height="125" fill="#e8a33d"/>
+  <!-- trend arrow -->
+  <path d="M255 260 L385 175" stroke="#f4c67a" stroke-width="4" fill="none" stroke-dasharray="2 8" stroke-linecap="round"/>
+  <polygon points="380,160 400,168 388,185" fill="#f4c67a"/>
+  <!-- shopping cart icon -->
+  <g stroke="#e8a33d" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M580 180 h30 l25 90 h110 l25 -70 h-150"/>
+  </g>
+  <circle cx="625" cy="300" r="12" fill="#e8a33d"/>
+  <circle cx="705" cy="300" r="12" fill="#e8a33d"/>
+  <text x="400" y="390" text-anchor="middle" fill="#f4c67a" font-family="Arial, sans-serif" font-size="20" letter-spacing="2">BUYER PREFERENCE TRENDS</text>
+</svg>

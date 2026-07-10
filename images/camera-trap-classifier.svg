@@ -1,0 +1,19 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" fill="#0b1e3c"/>
+  <!-- camera body -->
+  <rect x="280" y="170" width="240" height="150" rx="14" fill="#13294b" stroke="#e8a33d" stroke-width="3"/>
+  <rect x="340" y="140" width="60" height="35" rx="6" fill="#13294b" stroke="#e8a33d" stroke-width="3"/>
+  <circle cx="400" cy="245" r="55" fill="#0b1e3c" stroke="#e8a33d" stroke-width="5"/>
+  <circle cx="400" cy="245" r="30" fill="#0b1e3c" stroke="#f4c67a" stroke-width="3"/>
+  <circle cx="480" cy="195" r="8" fill="#e8a33d"/>
+  <!-- paw print detection -->
+  <g fill="#e8a33d">
+    <ellipse cx="620" cy="260" rx="22" ry="26"/>
+    <ellipse cx="585" cy="220" rx="10" ry="14"/>
+    <ellipse cx="610" cy="205" rx="10" ry="14"/>
+    <ellipse cx="635" cy="205" rx="10" ry="14"/>
+    <ellipse cx="655" cy="220" rx="10" ry="14"/>
+  </g>
+  <rect x="565" y="185" width="115" height="115" fill="none" stroke="#f4c67a" stroke-width="3" stroke-dasharray="8 6"/>
+  <text x="400" y="380" text-anchor="middle" fill="#f4c67a" font-family="Arial, sans-serif" font-size="20" letter-spacing="2">20-SPECIES CLASSIFICATION</text>
+</svg>
