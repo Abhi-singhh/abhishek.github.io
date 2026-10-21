@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Abhishek Kumar Singh</title>
+    <title>Abhishek Kumar Singh | Data Science Co-op Student</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Abhishek Kumar Singh: MEng Applied Data Science student at the University of Victoria. Open to co-op roles in data engineering, data analytics, business analytics, data science and machine learning, Jan to Dec 2027. Projects in PySpark, Databricks, dbt, BigQuery, SQL, Tableau, PyTorch and scikit-learn.">
+    <meta property="og:title" content="Abhishek Kumar Singh | Data Science Co-op Student">
+    <meta property="og:description" content="MEng Applied Data Science, University of Victoria. Open to data engineering, data analyst, business analyst, data scientist and ML engineer co-ops, Jan to Dec 2027.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://abhi-singhh.github.io/abhishek.github.io/images/og-card.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+    <meta property="og:url" content="https://abhi-singhh.github.io/abhishek.github.io/">
     
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
@@ -29,6 +37,9 @@
 /*======================================
 //--//-->   ABOUT
 ======================================*/
+
+/* stop the template about block overflowing on phones */
+@media (max-width: 767.98px) { #about-section .container > .row { margin-left: 0; margin-right: 0; } #about-section .row.d-flex.align-items-stretch { margin-left: 0; margin-right: 0; } }
 
 .about-mf .box-shadow-full {
   padding-top: 4rem;
@@ -110,6 +121,26 @@
 }
 
 
+
+/* project cards */
+.project-group { color: #fff; font-size: 22px; font-weight: 600; margin: 0 0 24px; padding-left: 12px; border-left: 4px solid #ffbd39; }
+#project-section .stack { color: #ffbd39; font-size: 13px; letter-spacing: .5px; margin-bottom: 6px; }
+#project-section .code-link { color: #fff; font-weight: 600; font-size: 14px; }
+#project-section .code-link:hover { color: #ffbd39; }
+#project-section .code-note { color: #8a8a8a; font-size: 13px; font-style: italic; }
+#project-section .compact .block-20 { height: 150px; }
+#project-section .compact .heading { font-size: 18px; }
+#project-section .compact p { font-size: 15px; }
+#resume-section .resume-wrap h2 a { color: inherit; border-bottom: 1px dashed #ffbd39; }
+#resume-section .resume-wrap ul { padding-left: 18px; }
+
+/* role chips (hero) and role tags (cards) */
+.role-chips { list-style: none; padding: 0; margin: 14px 0 22px; display: flex; flex-wrap: wrap; gap: 8px; }
+.role-chips li { border: 1px solid #ffbd39; color: #ffbd39; border-radius: 999px; padding: 4px 12px; font-size: 13px; letter-spacing: .3px; }
+#project-section .role-tags { display: flex; flex-wrap: wrap; gap: 6px; margin: -4px 0 10px; }
+#project-section .role-tags span { background: rgba(255,189,57,.12); color: #ffbd39; border-radius: 4px; padding: 1px 8px; font-size: 12px; letter-spacing: .3px; }
+.focus-list { padding-left: 18px; margin-bottom: 1rem; }
+.focus-list li { margin-bottom: 6px; }
 </style>
 
 
@@ -159,9 +190,11 @@
 
 						// Create an array of typing text
 						const typingTexts = [
-						'Engineer  ',
+						'Data Engineer  ',
 						'Data Analyst  ',
-		
+						'Business Analyst  ',
+						'Data Scientist  ',
+						'ML Engineer  ',
 						];
 
 						// Create a function to display the typing animation for a given text
@@ -187,11 +220,12 @@
 
 						<br>
 						<br>
-			            <h2>MADS Student at UVic | Data Analyst</h2>
-						<!-- <h2 class="d-flex" style="margin-bottom: 0">With over 5 years of experience</h2> -->
-						<!-- <br> -->
-			            <!-- <p><a href="https://www.youtube.com/@RishabhMishraOfficial" class="btn btn-primary py-3 px-4">YouTube</a>  -->
-							<a href="https://github.com/Abhi-singhh?tab=repositories" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+			            <h2>Data science student, MEng Applied Data Science @ UVic<br>Co-op available Jan to Dec 2027</h2>
+			            <ul class="role-chips" aria-label="Co-op roles I'm open to">
+			              <li>Data Engineering</li><li>Data Analytics</li><li>Business Analytics</li><li>Data Science</li><li>Machine Learning</li>
+			            </ul>
+			            <p><a href="#project-section" class="btn btn-primary py-3 px-4">See my projects</a>
+							<a href="https://github.com/Abhi-singhh" class="btn btn-white btn-outline-white py-3 px-4" target="_blank" rel="noopener">GitHub</a></p>
 		            </div>
 		          </div>
 	        	</div>
@@ -213,15 +247,15 @@
 								<div class="row">
 									<div class="col-sm-6 col-md-5">
 									  <div class="about-img">
-										<img src="images/about-me.png" class="img-fluid rounded b-shadow-a" alt="">
+										<img src="images/about-me.jpg" class="img-fluid rounded b-shadow-a" alt="Abhishek Kumar Singh" width="400" height="423">
 									  </div>
 									</div>
 									<!-- Details next to profile image -->
 									<div class="col-sm-6 col-md-7">
 									  <div class="about-info">
 										<p><span class="title-s">Name: </span> <span>Abhishek Kumar Singh</span></p>
-										<p><span class="title-s">Job Role: </span> <span>Data Scientist / ML Engineer</span></p>
-										<p><span class="title-s">Location: </span> <span>Victoria, BC, Canada</span></p>
+										<p><span class="title-s">Open to: </span> <span>Data Engineer, Data Analyst, Business Analyst, Data Scientist and ML Engineer co-ops</span></p>
+										<p><span class="title-s">Location: </span> <span>Victoria, BC (open to relocating anywhere in Canada)</span></p>
 									  </div>
 									</div>
 								  </div>
@@ -229,8 +263,11 @@
 								<div class="skill-mf">
 									<p class="title-s">Skills</p>
 									<p class="mb-2"><strong>Languages:</strong> Python, SQL</p>
-									<p class="mb-2"><strong>ML / Data:</strong> PyTorch, scikit-learn, YOLOv8, LangChain, Pandas, NumPy</p>
-									<p class="mb-2"><strong>Tools:</strong> Git, Tableau, Jupyter, PyCharm</p>
+									<p class="mb-2"><strong>Data engineering:</strong> PySpark, Azure Databricks, Delta Lake, Unity Catalog, dbt, Google BigQuery, SQLite, pandas</p>
+									<p class="mb-2"><strong>Quality &amp; CI:</strong> pytest, dbt tests, GitHub Actions, Jenkins, Git</p>
+									<p class="mb-2"><strong>Machine learning:</strong> PyTorch, scikit-learn, YOLOv8, ResNet, LangChain, ChromaDB</p>
+									<p class="mb-2"><strong>Analytics &amp; BI:</strong> SQL (joins, window functions), Tableau, Excel (VBA macros), Databricks Lakeview, Streamlit</p>
+									<p class="mb-2"><strong>Business tools:</strong> Salesforce, SharePoint, Microsoft Teams, Word, PowerPoint</p>
 								</div>
 							</div>
 						</div>
@@ -243,28 +280,27 @@
 								<h1 class="big">About</h1>
 								<h2 class="mb-4">About Me</h2>
 								
-								<p>A candidate for the Master of Applied Data Science program from the University of Victoria, my education is primarily in Computer Science and Engineering.. My work centers on applied machine learning end-to-end  from data pipeline to trained model to evaluation &mdash; spanning object detection and tracking, audio/signal classification, and RAG evaluation systems. All of my projects are open source and documented on GitHub. I'm currently seeking a Fall 2026 co-op placement.</p>
+								<p>I'm a data science student in the Master of Engineering in Applied Data Science (co-op) program at the University of Victoria, with a B.Tech in Computer Science Engineering. I work on the whole path from raw data to a decision: building pipelines that make data reliable, analyzing it to answer business questions, and training models on top of it.</p>
+								<ul class="focus-list">
+									<li><b>Data engineering:</b> medallion pipelines on Databricks, dbt models on BigQuery, Python validation modules that run in CI.</li>
+									<li><b>Analytics:</b> SQL and Tableau dashboards, such as showing discount offers converted at 60.9% vs 53.7% for buy-one-get-one across 17,000 loyalty customers.</li>
+									<li><b>Machine learning:</b> YOLOv8 maritime detection and tracking (0.95 mAP50), a 20-species image classifier, audio and RAG evaluation pipelines.</li>
+								</ul>
+								<p>I'm looking for a co-op in data engineering, data analytics, business analytics, data science or machine learning from January 2027 (4 to 12 months), and I'm open to relocating anywhere in Canada.</p>
 								<ul class="about-info mt-4 px-md-0 px-2">
-									<li class="d-flex"><span>Profile:</span> <span>Data Scientist | MADS Candidate, University of Victoria</span></li>
-									<li class="d-flex"><span>Education:</span> <span>Master of Applied Data Science (MADS), University of Victoria (In Progress)
-B.Tech in Computer Science and Engineering</span></li>
-									<li class="d-flex"><span>Language:</span> <span>English, Hindi</span></li>
-									<li class="d-flex"><span>Focus Areas:</span> <span>Computer Vision, Applied ML Pipelines, Audio/Signal Processing</span></li>
-									<li class="d-flex"><span>Currently Building:</span> <span>IoT Intrusion Detection System (Capstone)</span></li>
-									<li class="d-flex"><span>Interest:</span> <span>Traveling, Travel Photography, Teaching</span></li>
-								</ul>	
-									
+									<li class="d-flex"><span>Education:</span> <span>MEng Applied Data Science, University of Victoria (Sep 2025 to Dec 2027)</span></li>
+									<li class="d-flex"><span>Availability:</span> <span>Co-op terms January to December 2027</span></li>
+									<li class="d-flex"><span>Languages:</span> <span>English, Hindi</span></li>
+								</ul>
 							</div>
 						</div>
 
-
 						<div class="counter-wrap ftco-animate d-flex mt-md-3">
 							<div class="text">
-								<p class="mb-4">
-									<span class="number" data-number="7">0</span> <span>+</span>
-									<span>&nbsp; Projects completed</span>
+								<p>
+									<a href="https://www.linkedin.com/in/abhisingh0001/" class="btn btn-primary py-3 px-3" target="_blank" rel="noopener">LinkedIn</a>
+									<a href="https://github.com/Abhi-singhh" class="btn btn-primary py-3 px-3" target="_blank" rel="noopener">GitHub</a>
 								</p>
-								<p><a href="https://www.linkedin.com/in/abhishek-kumar-singh-29bb011a1/" class="btn btn-primary py-3 px-3">LinkedIn</a></p>
 							</div>
 						</div>
 					</div>
@@ -282,7 +318,7 @@ B.Tech in Computer Science and Engineering</span></li>
           <div class="col-md-10 heading-section text-center ftco-animate">
           	<h1 class="big big-2">Resume</h1>
             <h2 class="mb-4">Resume</h2>
-            <p>I'm a Master of Applied Data Science (MADS) candidate at the University of Victoria, building applied machine learning skills across computer vision, audio/signal processing, and data pipelines. I hold a B.Tech in Computer Science and Engineering. I work primarily in Python (NumPy, Pandas, PyTorch, scikit-learn) with additional experience in SQL, Tableau, and Git.</p>
+            <p>Data science graduate student working mainly in Python and SQL: Spark, Databricks, dbt and BigQuery for pipelines, Tableau and Excel for analysis and reporting, and PyTorch and scikit-learn for machine learning.</p>
           </div>
         </div>
 
@@ -291,43 +327,55 @@ B.Tech in Computer Science and Engineering</span></li>
 			<div class="underline"></div>
 		</div>
 		<br>
-		
+
 		<div class="row">
 				<div class="col-md-6">
 					<div class="resume-wrap ftco-animate">
-						<span class="date">June 2021 - June 2021</span>
-						<h2>Business Analytics</h2>
-						<span class="position">The Sparks Foundation</span>
-						<p class="mt-4">Spark Foundation pioneers data-driven solutions, empowering organizations with actionable insights and driving meaningful change in the industry.
-							<ul>
-								<li>Conducted thorough data analysis during internship as a business analyst to uncover valuable insights and trends.</li>
-								<li>Collaborated effectively with cross-functional teams to streamline processes and enhance operational efficiency.</li>
-								<li>Made significant contributions that directly impacted business outcomes, showcasing strong analytical and problem-solving abilities.</li>
-							</ul>
-						</p>
+						<span class="date">Sep 2026 – Present</span>
+						<h2>Teaching Assistant, ECE 241 (Digital Design)</h2>
+						<span class="position">University of Victoria</span>
+						<ul class="mt-4">
+							<li>Support weekly digital design labs, helping students debug hardware designs and logic-level implementation issues hands-on.</li>
+						</ul>
 					</div>
-
 				</div>
 
 				<div class="col-md-6">
 					<div class="resume-wrap ftco-animate">
-						<span class="date">June 2021 - July 2021
-						</span>
-						<h2>Data Analysis</h2>
-						<span class="position">Allsoft Solution</span>
-						<p class="mt-4">Allsoft Solution is a reputable company providing comprehensive software solutions, leveraging cutting-edge technology to meet clients' diverse needs effectively.
-
- 
-							<ul>
-								<li>Performed in-depth market research and analysis to create online pages. Resulted in ~100% website growth and 30% increase in conversion rate YoY.</li>
-								<li>Delivered multiple training and mentorship sessions on analytical tools like SQL, MS Excel, Power BI, Tableau and Python.</li>
-								<li>Performed migration and enhancements for the merchandising dashboard, involved data integration and its feature improvement.</li>
-							</ul>
-						</p>
+						<span class="date">Jan 2026 – Apr 2026</span>
+						<h2>Marker TA, ECE 363 (Communication Networks)</h2>
+						<span class="position">University of Victoria</span>
+						<ul class="mt-4">
+							<li>Assessed technical assignments in communication networks against a defined rubric, giving consistent, actionable feedback to students.</li>
+						</ul>
 					</div>
-
 				</div>
-			</div>
+		</div>
+
+		<div class="row">
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">Jun 2021 – Aug 2021 · Remote</span>
+						<h2><a href="https://drive.google.com/file/d/1bbORrelUmKcBIQTUS84MaAdo7m-4jeTo/view?usp=sharing" target="_blank" rel="noopener">Business Analytics Intern</a></h2>
+						<span class="position">The Sparks Foundation</span>
+						<ul class="mt-4">
+							<li>Reduced manual reporting time by about 40% by automating data extraction and validation workflows in Python and SQL.</li>
+							<li>Delivered 3 Tableau dashboards that management adopted for ongoing monthly reporting.</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-6">
+					<div class="resume-wrap ftco-animate">
+						<span class="date">Jun 2021 – Jul 2021 · Remote</span>
+						<h2><a href="https://drive.google.com/file/d/1GWlePsir_NF0ELgpEVhgHazo6iOB1wrN/view?usp=sharing" target="_blank" rel="noopener">Data Analysis Intern (training project)</a></h2>
+						<span class="position">Allsoft Solutions and Services</span>
+						<ul class="mt-4">
+							<li>Built a stock market analysis in Python (pandas, NumPy, Matplotlib) and PySpark during a 6-week industry training project.</li>
+						</ul>
+					</div>
+				</div>
+		</div>
 
 		<br>
 		<br>
@@ -341,38 +389,49 @@ B.Tech in Computer Science and Engineering</span></li>
 			<div class="row">
     			<div class="col-md-6">
     				<div class="resume-wrap ftco-animate">
-    					<span class="date">2025 - Expected 2026</span>
-    					<h2>Master of Applied Data Science (MADS)</h2>
-    					<span class="position">University of Victoria, Canada</span>
-    					<p class="mt-4">Co-operative Education Program. Coursework: Data Mining, Advanced Data Analytics, Capstone (IoT Intrusion Detection System).</p>
+    					<span class="date">Sep 2025 – Dec 2027 (expected)</span>
+    					<h2>Master of Engineering, Applied Data Science (Co-op)</h2>
+    					<span class="position">University of Victoria, Victoria, BC</span>
+    					<p class="mt-4">Coursework: Systems for Massive Datasets, Data Mining, Algorithms and Data Models, Artificial Intelligence. Capstone (ECE 597): two-stage IoT intrusion detection, 7-person team.</p>
     				</div>
     			</div>
 
     			<div class="col-md-6">
     				<div class="resume-wrap ftco-animate">
-    					<span class="date">2019-2023</span>
-    					<h2>Bachelor of Technology in Computer Science and Engineering</h2>
-    					<span class="position">Maharshi Dayanand University</span>
+    					<span class="date">Aug 2019 – Jun 2023</span>
+    					<h2>Bachelor of Technology, Computer Science Engineering</h2>
+    					<span class="position">Maharshi Dayanand University, Haryana, India</span>
     					<p class="mt-4">Grade: First Division.</p>
     				</div>
     			</div>
     		</div>
 
+    		<br>
+    		<div class="row">
+    			<h1 class="big-4">Certifications</h1>
+    			<div class="underline"></div>
+    		</div>
+    		<br>
     		<div class="row">
     			<div class="col-md-6">
     				<div class="resume-wrap ftco-animate">
-    					<span class="date">2018-2019</span>
-    					<h2>Higher Secondary School</h2>
-    					<span class="position">Green View Public School</span>
-    					<p class="mt-4">Grade: First class distinction.</p>
+    					<span class="date">May 2025</span>
+    					<h2><a href="https://drive.google.com/file/d/1lEcRYeQQ4-J1GDtotiyn5rgt2OFtGtsX/view?usp=drive_link" target="_blank" rel="noopener">Mathematics for Machine Learning: Linear Algebra</a></h2>
+    					<span class="position">Coursera · Imperial College London</span>
     				</div>
-				</div>
+    			</div>
+    			<div class="col-md-6">
+    				<div class="resume-wrap ftco-animate">
+    					<span class="date">Dec 2021 – Jun 2022</span>
+    					<h2><a href="https://drive.google.com/file/d/1wqvwjvHdAbwmQgzgPUxrCXYdDLuI9Xuo/view?usp=drive_link" target="_blank" rel="noopener">Data Science with Python</a></h2>
+    					<span class="position">DUCAT</span>
+    				</div>
+    			</div>
     		</div>
-
 
     		<div class="row justify-content-center mt-5">
     			<div class="col-md-6 text-center ftco-animate">
-    				<p><a href="#" class="btn btn-primary py-4 px-5">Download CV</a></p>
+    				<p><a href="mailto:abhiisinghh0001@gmail.com?subject=R%C3%A9sum%C3%A9%20request" class="btn btn-primary py-4 px-5 js-resume-link">Request my résumé</a></p>
     			</div>
     		</div>
     	</div>
@@ -386,76 +445,142 @@ B.Tech in Computer Science and Engineering</span></li>
           <div class="col-md-7 heading-section text-center ftco-animate">
             <h1 class="big big-2">Projects</h1>
             <h2 class="mb-4">Projects</h2>
-            <p>A selection of applied ML and data analytics projects spanning computer vision, audio processing, and NLP.</p>
+            <p>Ten projects across data engineering, analytics and machine learning. Each card shows which kinds of roles it is most relevant to.</p>
           </div>
         </div>
+        <h3 class="project-group">Data engineering</h3>
         <div class="row d-flex">
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
-              <a href="https://github.com/Abhi-singhh/maritime-detection-tracking" class="block-20 zoom-effect" style="background-image: url('images/maritime-detection.svg');">
+              <a href="https://github.com/Abhi-singhh/databricks-medallion-transcript" class="block-20 zoom-effect" style="background-image: url('images/medallion-pipeline.svg');" aria-label="Databricks Medallion Pipeline on GitHub" target="_blank" rel="noopener">
               </a>
               <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a href="https://github.com/Abhi-singhh/maritime-detection-tracking">Maritime Object Detection &amp; Tracking</a></h3>
-                <p>Real-time detection and multi-object tracking pipeline for maritime vessels using YOLOv8n, ByteTrack, and Kalman filtering. 95% mAP50 on the Singapore Maritime Dataset.</p>
+                <h3 class="heading"><a href="https://github.com/Abhi-singhh/databricks-medallion-transcript" target="_blank" rel="noopener">Databricks Medallion Pipeline</a></h3>
+                <p class="role-tags"><span>Data Engineering</span><span>Analytics</span></p>
+                <p>Raw call transcripts flow through bronze, silver, gold and derivative Delta tables. Databricks AI Functions extract fields and classify call type and sentiment, and every layer runs validation checks (row counts, unique IDs, allowed labels) that fail the run if anything breaks. 12 pytest unit tests.</p>
+                <p class="stack">PySpark · Azure Databricks · Delta Lake · Unity Catalog</p>
+                <p><a href="https://github.com/Abhi-singhh/databricks-medallion-transcript" class="code-link" target="_blank" rel="noopener">View code &rarr;</a></p>
               </div>
             </div>
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
-              <a href="#" class="block-20 zoom-effect" style="background-image: url('images/sleep-apnea-acoustic.svg');">
+              <a href="https://github.com/Abhi-singhh/Coffee-Rewards-End-to-End-Data-Analytics-Project" class="block-20 zoom-effect" style="background-image: url('images/dbt-bigquery.svg');" aria-label="Coffee Rewards: dbt on BigQuery on GitHub" target="_blank" rel="noopener">
               </a>
               <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a href="#">Sleep Apnea Acoustic Screening</a></h3>
-                <p>Acoustic screening pipeline for sleep apnea detection using signal processing and machine learning. Achieved a 97% F1 score.</p>
+                <h3 class="heading"><a href="https://github.com/Abhi-singhh/Coffee-Rewards-End-to-End-Data-Analytics-Project" target="_blank" rel="noopener">Coffee Rewards: dbt on BigQuery</a></h3>
+                <p class="role-tags"><span>Data Engineering</span><span>Data Analytics</span><span>Business Analytics</span></p>
+                <p>Migrated a SQLite loyalty analysis (306,534 events) to dbt staging and mart models on BigQuery. BigQuery&rsquo;s strict typing exposed a reward-parsing bug SQLite had silently truncated; fixed with REGEXP_EXTRACT. 6 dbt tests run in GitHub Actions. Tableau analysis showed discount offers convert at 60.9% vs 53.7% for BOGO.</p>
+                <p class="stack">dbt · BigQuery · SQL · GitHub Actions</p>
+                <p><a href="https://github.com/Abhi-singhh/Coffee-Rewards-End-to-End-Data-Analytics-Project" class="code-link" target="_blank" rel="noopener">View code &rarr;</a></p>
               </div>
             </div>
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
-              <a href="https://github.com/Abhi-singhh/rag-eval-pipeline" class="block-20 zoom-effect" style="background-image: url('images/rag-eval-pipeline.svg');">
+              <a href="https://github.com/Abhi-singhh/ferry-vessel-analytics" class="block-20 zoom-effect" style="background-image: url('images/ferry-ais.svg');" aria-label="BC Ferry AIS Delay Detection on GitHub" target="_blank" rel="noopener">
               </a>
               <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a href="https://github.com/Abhi-singhh/rag-eval-pipeline">Observable RAG Evaluation Pipeline</a></h3>
-                <p>Retrieval-augmented generation evaluation pipeline over 402 arXiv papers using ChromaDB, LangChain, and Llama 3, with a Streamlit dashboard and LangFuse tracing.</p>
+                <h3 class="heading"><a href="https://github.com/Abhi-singhh/ferry-vessel-analytics" target="_blank" rel="noopener">BC Ferry AIS Delay Detection</a></h3>
+                <p class="role-tags"><span>Data Engineering</span><span>Data Analytics</span></p>
+                <p>Cleaned 12.47M raw AIS vessel pings using the AIS spec&rsquo;s &ldquo;not available&rdquo; values and distance-based de-duplication, rebuilt 21,016 vessel trips, and flagged ferry delays against per-route baselines. Validation logic lives in a Python module with pytest suites run by GitHub Actions and Jenkins.</p>
+                <p class="stack">Python · pandas · pytest · Jenkins · Tableau</p>
+                <p><a href="https://github.com/Abhi-singhh/ferry-vessel-analytics" class="code-link" target="_blank" rel="noopener">View code &rarr;</a></p>
               </div>
             </div>
           </div>
         </div>
         <br>
+        <h3 class="project-group">Machine learning &amp; computer vision</h3>
         <div class="row d-flex">
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
-              <a href="https://github.com/Abhi-singhh/camera-trap-classifier" class="block-20 zoom-effect" style="background-image: url('images/camera-trap-classifier.svg');">
+              <a href="https://github.com/Abhi-singhh/maritime-detection-tracking" class="block-20 zoom-effect" style="background-image: url('images/maritime-detection.svg');" aria-label="Maritime Detection &amp; Tracking on GitHub" target="_blank" rel="noopener">
               </a>
               <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a href="https://github.com/Abhi-singhh/camera-trap-classifier">Camera-Trap Species Classifier</a></h3>
-                <p>Image classifier distinguishing 20 wildlife species from camera-trap photos using ResNet18. 86.9% accuracy on the ENA24 dataset.</p>
+                <h3 class="heading"><a href="https://github.com/Abhi-singhh/maritime-detection-tracking" target="_blank" rel="noopener">Maritime Detection &amp; Tracking</a></h3>
+                <p class="role-tags"><span>ML Engineering</span><span>Computer Vision</span></p>
+                <p>Fine-tuned YOLOv8n on 6,350 maritime images and added ByteTrack so each vessel keeps its ID across frames. 0.95 mAP50 at 175+ FPS.</p>
+                <p class="stack">PyTorch · YOLOv8 · ByteTrack</p>
+                <p><a href="https://github.com/Abhi-singhh/maritime-detection-tracking" class="code-link" target="_blank" rel="noopener">View code &rarr;</a></p>
               </div>
             </div>
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
-              <a href="https://github.com/Abhi-singhh/Bank-Account-Automation" class="block-20 zoom-effect" style="background-image: url('images/bank-automation.svg');">
+              <a href="https://github.com/Abhi-singhh/camera-trap-classifier" class="block-20 zoom-effect" style="background-image: url('images/camera-trap-classifier.svg');" aria-label="Camera-Trap Species Classifier on GitHub" target="_blank" rel="noopener">
               </a>
               <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a href="https://github.com/Abhi-singhh/Bank-Account-Automation">Bank Account Automation</a></h3>
-                <p>Desktop banking system built with Python and Tkinter, supporting account creation, PIN-based authentication, and balance management backed by SQLite.</p>
+                <h3 class="heading"><a href="https://github.com/Abhi-singhh/camera-trap-classifier" target="_blank" rel="noopener">Camera-Trap Species Classifier</a></h3>
+                <p class="role-tags"><span>Data Science</span><span>Machine Learning</span></p>
+                <p>Two-phase transfer learning with ResNet18 on 20 species from the ENA24 dataset, with a stratified 70/15/15 split. 86.9% test accuracy, 0.864 macro F1.</p>
+                <p class="stack">PyTorch · ResNet18</p>
+                <p><a href="https://github.com/Abhi-singhh/camera-trap-classifier" class="code-link" target="_blank" rel="noopener">View code &rarr;</a></p>
               </div>
             </div>
           </div>
           <div class="col-md-4 d-flex ftco-animate">
           	<div class="blog-entry justify-content-end">
-              <a href="https://github.com/Abhi-singhh/Python_Amazon_Sales_Analysis" class="block-20 zoom-effect" style="background-image: url('images/sales-eda.svg');">
+              <a href="https://github.com/Abhi-singhh/ECE575-OSA-Acoustic-Screening" class="block-20 zoom-effect" style="background-image: url('images/sleep-apnea-acoustic.svg');" aria-label="Sleep Apnea Acoustic Screening on GitHub" target="_blank" rel="noopener">
               </a>
               <div class="text mt-3 float-right d-block">
-
-                <h3 class="heading"><a href="https://github.com/Abhi-singhh/Python_Amazon_Sales_Analysis">Amazon Sales EDA</a></h3>
-                <p>Exploratory data analysis of Amazon sales data using Pandas and Matplotlib to surface buyer preference trends.</p>
+                <h3 class="heading"><a href="https://github.com/Abhi-singhh/ECE575-OSA-Acoustic-Screening" target="_blank" rel="noopener">Sleep Apnea Acoustic Screening</a></h3>
+                <p class="role-tags"><span>Data Science</span><span>Machine Learning</span></p>
+                <p>Course project (ECE 575): acoustic features from snoring audio classified with SVM, random forest and ensemble models. SVM reached 0.97 F1 (5-fold CV 0.969).</p>
+                <p class="stack">Python · scikit-learn · signal processing</p>
+                <p><a href="https://github.com/Abhi-singhh/ECE575-OSA-Acoustic-Screening" class="code-link" target="_blank" rel="noopener">View code &rarr;</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <h3 class="project-group">More projects</h3>
+        <div class="row d-flex compact">
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <div class="block-20" style="background-image: url('images/iot-ids.svg');" role="img" aria-label="IoT Intrusion Detection (Capstone)"></div>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading">IoT Intrusion Detection (Capstone)</h3>
+                <p class="role-tags"><span>Data Science</span><span>Machine Learning</span></p>
+                <p>ECE 597 capstone, team of 7. A two-stage model (attack or not, then attack type) cut false positives by 91.9% (8,195 to 665) with recall held steady. My part: the sampling and preprocessing scripts.</p>
+                <p class="stack">Python · scikit-learn · XGBoost</p>
+                <p class="code-note">Team repository is private</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/Abhi-singhh/rag-eval-pipeline" class="block-20 zoom-effect" style="background-image: url('images/rag-eval-pipeline.svg');" aria-label="RAG Evaluation Pipeline on GitHub" target="_blank" rel="noopener"></a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading"><a href="https://github.com/Abhi-singhh/rag-eval-pipeline" target="_blank" rel="noopener">RAG Evaluation Pipeline</a></h3>
+                <p class="role-tags"><span>ML Engineering</span><span>AI / LLM</span></p>
+                <p>RAG over arXiv papers (1,533 chunks in ChromaDB, local Llama 3) with a custom harness scoring faithfulness, relevancy and recall. Raising top-k from 3 to 5 lifted answer relevancy 14.5%.</p>
+                <p class="stack">LangChain · ChromaDB · Ollama · Streamlit</p>
+                <p><a href="https://github.com/Abhi-singhh/rag-eval-pipeline" class="code-link" target="_blank" rel="noopener">View code &rarr;</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/Abhi-singhh/Bank-Account-Automation" class="block-20 zoom-effect" style="background-image: url('images/bank-automation.svg');" aria-label="Bank Account Automation on GitHub" target="_blank" rel="noopener"></a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading"><a href="https://github.com/Abhi-singhh/Bank-Account-Automation" target="_blank" rel="noopener">Bank Account Automation</a></h3>
+                <p class="role-tags"><span>Software</span></p>
+                <p>Desktop banking app covering accounts, login, deposits, withdrawals, transfers and history, with parameterized SQL in every database call.</p>
+                <p class="stack">Python · Tkinter · SQLite</p>
+                <p><a href="https://github.com/Abhi-singhh/Bank-Account-Automation" class="code-link" target="_blank" rel="noopener">View code &rarr;</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3 d-flex ftco-animate">
+          	<div class="blog-entry justify-content-end">
+              <a href="https://github.com/Abhi-singhh/Python_Amazon_Sales_Analysis" class="block-20 zoom-effect" style="background-image: url('images/sales-eda.svg');" aria-label="Amazon Sales EDA on GitHub" target="_blank" rel="noopener"></a>
+              <div class="text mt-3 float-right d-block">
+                <h3 class="heading"><a href="https://github.com/Abhi-singhh/Python_Amazon_Sales_Analysis" target="_blank" rel="noopener">Amazon Sales EDA</a></h3>
+                <p class="role-tags"><span>Data Analytics</span><span>Business Analytics</span></p>
+                <p>Exploratory analysis of Amazon sales data with pandas and Matplotlib to find which products and categories buyers prefer.</p>
+                <p class="stack">Python · pandas · Matplotlib</p>
+                <p><a href="https://github.com/Abhi-singhh/Python_Amazon_Sales_Analysis" class="code-link" target="_blank" rel="noopener">View code &rarr;</a></p>
               </div>
             </div>
           </div>
@@ -470,7 +595,7 @@ B.Tech in Computer Science and Engineering</span></li>
           <div class="col-md-7 heading-section text-center ftco-animate">
             <h1 class="big big-2">Contact</h1>
             <h2 class="mb-4">Contact Me</h2>
-            <p>Below are the details to reach out to me!</p>
+            <p>Email is the fastest way to reach me.</p>
           </div>
         </div>
 
@@ -480,8 +605,8 @@ B.Tech in Computer Science and Engineering</span></li>
           		<div class="icon d-flex align-items-center justify-content-center">
           			<span class="icon-map-signs"></span>
           		</div>
-          		<h3 class="mb-4">Address</h3>
-	            <p>Victoria, BC, Canada</p>
+          		<h3 class="mb-4">Location</h3>
+	            <p>Victoria, BC · open to relocating</p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -490,7 +615,7 @@ B.Tech in Computer Science and Engineering</span></li>
           			<span class="icon-phone2"></span>
           		</div>
           		<h3 class="mb-4">Contact Number</h3>
-	            <p><a href="tel://0101010101">+1 2366381066</a></p>
+	            <p><a href="tel:+12366381066">+1 (236) 638-1066</a></p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
@@ -499,16 +624,16 @@ B.Tech in Computer Science and Engineering</span></li>
           			<span class="icon-paper-plane"></span>
           		</div>
           		<h3 class="mb-4">Email Address</h3>
-	            <p><a href="mailto:info@yoursite.com">abhiisinghh0001@gmail.com</a></p>
+	            <p><a href="mailto:abhiisinghh0001@gmail.com">abhiisinghh0001@gmail.com</a></p>
 	          </div>
           </div>
           <div class="col-md-6 col-lg-3 d-flex ftco-animate">
           	<div class="align-self-stretch box p-4 text-center">
           		<div class="icon d-flex align-items-center justify-content-center">
-          			<span class="icon-globe"></span>
+          			<span class="icon-file-text"></span>
           		</div>
-          		<h3 class="mb-4">Download Resume</h3>
-	            <p><a href="#">resumelink</a></p>
+          		<h3 class="mb-4">Résumé</h3>
+	            <p><a href="mailto:abhiisinghh0001@gmail.com?subject=R%C3%A9sum%C3%A9%20request" class="js-resume-link">Request by email</a></p>
 	          </div>
           </div>
 
@@ -523,11 +648,8 @@ B.Tech in Computer Science and Engineering</span></li>
 				<br>
 					<ul class="ftco-footer-social list-unstyled d-flex justify-content-center align-items-center mb-0">
 					  <li class="ftco-animate normal-txt">Find me on  </li>
-					  <!-- <li class="ftco-animate"><a href="https://www.youtube.com/@RishabhMishraOfficial"><span class="icon-youtube"></span></a></li> -->
-					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/abhishek-kumar-singh-29bb011a1/"><span class="icon-linkedin"></span></a></li>  
-<!-- 					  <li class="ftco-animate"><a href="https://twitter.com/rishabhnmishra"><span class="icon-twitter"></span></a></li> -->
-<!-- 					  <li class="ftco-animate"><a href="https://twitter.com/rishabhnmishra"><span class="icon-facebook"></span></a></li> -->
-				      <li class="ftco-animate"><a href="https://www.instagram.com/abhii_ssingh/"><span class="icon-instagram"></span></a></li>
+					  <li class="ftco-animate"><a href="https://www.linkedin.com/in/abhisingh0001/" aria-label="LinkedIn" target="_blank" rel="noopener"><span class="icon-linkedin"></span></a></li>
+					  <li class="ftco-animate"><a href="https://github.com/Abhi-singhh" aria-label="GitHub" target="_blank" rel="noopener"><span class="icon-github"></span></a></li>
 					</ul>
 				<br>
 		   </div>
@@ -543,7 +665,7 @@ B.Tech in Computer Science and Engineering</span></li>
 			<div class="col-md-12 text-center">
   
 			  <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" rel="noopener">Colorlib</a>
 	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 			</div>
 		  </div>
